@@ -1,1 +1,1 @@
-# Text Processing App in Django
+# Text Utility App in Django
