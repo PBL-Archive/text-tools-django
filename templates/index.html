@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Favicons -->
+        <link rel="icon" type="image/png" sizes="192x192" href="{% static 'favicon/android-icon-192x192.png' %}" />
+        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}" />
+        <link rel="icon" type="image/png" sizes="96x96" href="{% static 'favicon/favicon-96x96.png' %}" />
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}" />
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon.ico' %}" />
+
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,7 +61,6 @@
             <div class="my-3">
                 <div class="mb-3 h-100 w-100">
                     <div id="output_text">{{output_text|linebreaksbr}}</div>
-                    <!-- <input readonly placeholder="{{output_text|linebreaksbr}}" class="form-control" id="output_text1" value="{{output_text|linebreaksbr}}" /> -->
                 </div>
                 <div class="d-flex flex-row align-items-center justify-content-between">
                     <button class="btn btn-outline-dark" onclick="CopyToClipboard();">Copy to Clipboard</button>
